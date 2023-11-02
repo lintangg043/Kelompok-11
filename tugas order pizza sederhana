@@ -21,3 +21,24 @@ print("""
      (O) crown crust          : Rp. 12.088,   """)
 variancrust = input("ingin varian crust yang mana nihh? tulis sesuai kode yaa :").lower()
 
+#untuk memilih ukuran pizza
+print("pilih ukuran pizza yang kamu inginkan" )
+print(""" 
+    (p) personal  : Rp. 0,
+    (r) regular   : Rp. 57.543,
+    (l) large     : Rp. 89.361, """)
+varianukuran = input("ingin pilih ukuran yang mana nihh? Tulis sesuai kode yaa: ").lower()
+
+# untuk memilih extra cheese
+print("extra keju Rp.15.000 ")
+
+# if extrakeju = "ya"
+#   harga_keju = Rp. 15.000
+# else: 
+#      exit()
+
+if varianpizza == "011" :
+    harga_pizza = 43367
+elif varianpizza == "012" :
+    harga_pizza = 43367
+elif varianpizza == "013" :
