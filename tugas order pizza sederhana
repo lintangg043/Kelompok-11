@@ -1,0 +1,23 @@
+print ("welcome to pizza hut delivery 11b")
+
+# untuk memilih varian pizza
+print("pilih varian pizza yang anda inginkan")
+print("""
+     (011) Frankfunter BBQ       : Rp. 43.367,
+     (012) Meat Monsta           : Rp. 43.367,
+     (013) Super Supreme         : Rp. 43.367,
+     (014) Super Supreme Chiken  : Rp. 43.367,
+     (015) Meat Lovers           : Rp. 43.367,
+     (016) Chiken Lovers         : Rp. 43.367, """)
+varianpizza = input("ingin varian pizza yang mana nih? Tulis sesuai kode angka yaa : ").lower()
+
+# untuk memilih varian crust
+print("pilih varian crust yang anda inginkan")
+print("""
+     (K) pan                  : Rp. 0
+     (L) stuffedchrust cheese : Rp. 12.088,
+     (M) stuffedcrust sausage : Rp. 9.361,
+     (N) cheesy bites         : Rp. 13.870,
+     (O) crown crust          : Rp. 12.088,   """)
+variancrust = input("ingin varian crust yang mana nihh? tulis sesuai kode yaa :").lower()
+
