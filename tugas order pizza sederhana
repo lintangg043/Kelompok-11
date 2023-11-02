@@ -64,3 +64,27 @@ elif variancrust == "n" :
 else:
     print("sorry, tidak ada varian")
     exit()
+
+if varianukuran == "p" :
+    harga_ukuran = 0 
+elif varianukuran == "r":
+    harga_ukuran = 57543
+elif varianukuran == "l" :
+    harga_ukuran = 89361
+else:
+    print("sorry,tidak ada varian")
+    exit()
+
+extrakeju = input("ingin extra keju? ya/tidak : ").lower()
+if extrakeju == "ya":
+    harga_keju = 15000
+elif extrakeju == "tidak":
+    harga_keju = 0
+
+total_pembayaran = harga_pizza+harga_crust+harga_ukuran+harga_keju
+print(f"Total pesanan anda adalah: Rp.{total_pembayaran}")
+
+uang_pembayaran = int(input("Masukan nominal uang pembayaran anda: "))
+total_kembalian = uang_pembayaran - total_pembayaran
+print(f"Total kembalian anda adalah: Rp.{total_kembalian}")
+print("Terimakasih atas pesanan anda, pesanan anda akan segera kami proses")
