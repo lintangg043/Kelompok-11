@@ -42,3 +42,25 @@ if varianpizza == "011" :
 elif varianpizza == "012" :
     harga_pizza = 43367
 elif varianpizza == "013" :
+harga_pizza = 43367
+elif varianpizza == "014" :
+    harga_pizza = 43367
+elif varianpizza == "015" :
+    harga_pizza = 43367
+elif varianpizza == "016" :
+    harga_pizza = 43367
+else:
+    print("sorry, tidak ada varian")
+    exit()
+
+if variancrust == "k" :
+    harga_crust = 0
+elif variancrust == "l" :
+    harga_crust = 12088
+elif variancrust == "m" :
+    harga_crust = 9361
+elif variancrust == "n" :
+    harga_crust = 12088
+else:
+    print("sorry, tidak ada varian")
+    exit()
